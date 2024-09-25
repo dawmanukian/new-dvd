@@ -1,0 +1,56 @@
+header {
+    width: 100%;
+}
+.header-blocks {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.header-block {
+    background: #17191B;
+    height: 53px;
+    border-radius: 5px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    padding: 10px 12px;
+}
+.user-avatar {
+    height: 33px;
+    width: 33px;
+    margin-right: 8px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url('https://github.blog/wp-content/uploads/2024/07/github-logo.png');
+    border-radius: 50%;
+}
+.user-nick {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16.71px;
+    color: #fff;
+}
+.user-name {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14.32px;
+    color:#56595A;
+}
+.block-header {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16.71px;
+    color: #FFFFFF66;
+}
+.ton-block {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+.ton-block .money {
+    font-size: 12px;
+    line-height: 14.32px;
+    color: #FFFFFF;
+    font-weight: 500;
+}
