@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
 @font-face {
   font-family: "IOS font";
   src: url("./font/SFPRODISPLAYMEDIUM.OTF") format("opentype");
@@ -35,4 +36,10 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+.px {
+  font-family: "Pixelify Sans", sans-serif;
+}
+.page {
+  height: 100%;
 }

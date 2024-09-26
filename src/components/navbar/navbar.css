@@ -16,9 +16,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: #0A0D0F;
     width: 55px;
     height: 60px;
     border-radius: 5px;
     gap: 5px;
+}
+.navbar .active .route {
+    background: #0A0D0F;
 }

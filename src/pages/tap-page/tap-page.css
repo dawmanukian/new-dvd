@@ -1,0 +1,13 @@
+.tap-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.click-text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21.6px;
+    color: #BBBBBB;
+    margin-top: 8px;
+}
