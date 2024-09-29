@@ -1,0 +1,48 @@
+.pr-um-panel {
+    width: 100%;
+    background: linear-gradient(180deg, #17191B 0%, #17191B 100%);
+    padding: 10px 12px;
+    border-radius: 5px;
+    margin-top: 8px;
+}
+.prc {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16.71px;
+    color: #FFFFFF;
+}
+.boxes {
+    width: 100%;
+    display: grid;
+    gap: 8px;
+    margin-top: 8px;
+}
+.boxes .box {
+    height: 61px;
+    background: #17191B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+.box span {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21.48px;
+    color: #FFFFFF;
+}
+.buy-premium {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 14.32px;
+    color: #FFFFFF;
+    margin-top: 8px;
+    height: 37px;
+    width: 100%;
+    background: #090B0D;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 1px solid;
+    border-image-source: radial-gradient(64.7% 166.22% at 15.19% -66.22%, #FFFFFF 0%, rgba(153, 153, 153, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */,
+    radial-gradient(37.87% 97.3% at 83.01% 117.57%, #FFFFFF 0%, rgba(153, 153, 153, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+}

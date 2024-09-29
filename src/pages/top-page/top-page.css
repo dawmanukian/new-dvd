@@ -1,0 +1,64 @@
+.top-users, .total-earned {
+    width: 100%;
+    background: linear-gradient(180deg, #17191B 0%, #17191B 100%);
+    border-radius: 5px;
+    margin-top: 8px;
+    padding: 10px 12px;
+}
+.top-users-panel {
+    width: 100%;
+    margin-top: 10px;
+    display: grid;
+    gap: 4px;
+}
+.top-user {
+    height: 37px;
+    border-radius: 5px;
+    background: #FFFFFF05;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.user-ava {
+    width: 17px;
+    height: 17px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url('https://github.blog/wp-content/uploads/2024/07/github-logo.png');
+    border-radius: 50%;
+    margin-right: 9px;
+}
+.top-users-header {
+    font-size: 16px;
+    line-height: 19.09px;
+    color: #6C6C6C;
+    font-weight: 400;
+}
+.top-user > div {
+    display: flex;
+    align-items: center;
+}
+.top-user-name {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16.71px;
+    color: #FFFFFF;
+}
+.total-earned {
+    width: 100%;
+    margin-top: 8px;
+    background: linear-gradient(180deg, #17191B 0%, #17191B 100%);
+}
+.price-panel {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+.price-panel span {
+    font-size: 14px;
+    line-height: 16.71px;
+    font-weight: 500;
+    color: #FFFFFF;
+}

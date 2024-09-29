@@ -37,6 +37,7 @@
 }
 .up-de-panel .pn-data {
     display: flex;
+    align-items: center;
     gap: 10px;
 }
 .pn-data-header {
