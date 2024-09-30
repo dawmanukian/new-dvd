@@ -32,6 +32,7 @@
     color: #FFFFFF;
 }
 .buy-premium {
+    position: relative;
     font-size: 12px;
     font-weight: 500;
     line-height: 14.32px;
@@ -42,7 +43,5 @@
     background: #090B0D;
     border-radius: 5px;
     cursor: pointer;
-    border: 1px solid;
-    border-image-source: radial-gradient(64.7% 166.22% at 15.19% -66.22%, #FFFFFF 0%, rgba(153, 153, 153, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */,
-    radial-gradient(37.87% 97.3% at 83.01% 117.57%, #FFFFFF 0%, rgba(153, 153, 153, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    border: none;
 }

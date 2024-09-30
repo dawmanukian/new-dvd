@@ -74,3 +74,12 @@
     line-height: 19.09px;
     color: #FFFFFF;
 }
+.buy-btn img {
+    position: absolute;
+    opacity: 0%;
+    transition: all ease .5s;
+}
+.buy-btn:hover img {
+    display: block;
+    opacity: 100%;
+}

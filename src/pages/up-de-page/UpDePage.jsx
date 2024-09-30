@@ -12,6 +12,7 @@ import {ReactComponent as Speed} from "../../img/svg/speed.svg"
 import {ReactComponent as DvdBox} from "../../img/svg/dvd-box.svg"
 import {ReactComponent as Moneta} from "../../img/svg/MonetaLogo.svg"
 import { useLocation } from 'react-router-dom';
+import BorderColor from "../../img/btn-border.png"
 
 const UpDePage = () => {
     const location = useLocation();
@@ -41,6 +42,7 @@ const UpDePage = () => {
                     </div>
                 </div>
                 <button className="buy-btn">
+                    <img src={BorderColor}/>
                     <Moneta />
                     <p>250</p>
                 </button>
@@ -54,6 +56,7 @@ const UpDePage = () => {
                 </div>
                 </div>
                 <button className="buy-btn">
+                <img src={BorderColor}/>
                     <Moneta />
                     <p>100</p>
                 </button>
@@ -67,6 +70,7 @@ const UpDePage = () => {
                 </div>
                 </div>
                 <button className="buy-btn">
+                <img src={BorderColor}/>
                     <Moneta />
                     <p>250</p>
                 </button>
@@ -80,6 +84,7 @@ const UpDePage = () => {
                 </div>
                 </div>
                 <button className="buy-btn">
+                <img src={BorderColor}/>
                     <Moneta />
                     <p>300</p>
                 </button>
@@ -93,6 +98,7 @@ const UpDePage = () => {
                 </div>
                 </div>
                 <button className="buy-btn">
+                <img src={BorderColor}/>
                     <Moneta />
                     <p>500</p>
                 </button>
@@ -106,6 +112,7 @@ const UpDePage = () => {
                 </div>
                 </div>
                 <button className="buy-btn">
+                <img src={BorderColor}/>
                     <Moneta />
                     <p>1000</p>
                 </button>
@@ -124,6 +131,7 @@ const UpDePage = () => {
                         </div>
                         </div>
                         <button className="buy-btn">
+                        <img src={BorderColor}/>
                             <Moneta />
                             <p>100</p>
                         </button>
@@ -142,6 +150,7 @@ const UpDePage = () => {
                         </div>
                         </div>
                         <button className="buy-btn">
+                        <img src={BorderColor}/>
                             <Moneta />
                             <p>500</p>
                         </button>
@@ -155,6 +164,7 @@ const UpDePage = () => {
                         </div>
                         </div>
                         <button className="buy-btn">
+                        <img src={BorderColor}/>
                             <Moneta />
                             <p>1000</p>
                         </button>
@@ -168,6 +178,7 @@ const UpDePage = () => {
                         </div>
                         </div>
                         <button className="buy-btn">
+                        <img src={BorderColor}/>
                             <Moneta />
                             <p>250</p>
                         </button>

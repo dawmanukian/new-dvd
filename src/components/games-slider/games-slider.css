@@ -1,0 +1,62 @@
+.game-slider {
+    width: 100%;
+    position: absolute;
+    bottom: 8px;
+}
+.gm-slide {
+    width: 100%;
+    height: 53px;
+    border-radius: 5px;
+    background: #0A0D0F;
+    padding: 10px 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: all ease;
+    animation: gm-slide 0.8s;
+}
+@keyframes gm-slide {
+    from {
+        opacity: 30%;
+    }
+    to {
+        opacity: 100%;
+    }
+}
+.game-box {
+    width: 33px;
+    height: 33px;
+    border-radius: 5px;
+    background: #171C20;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gm-slide > div {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.game-name {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16.71px;
+    color: #FFFFFF;
+}
+.game-des {
+    color: #56595A;
+    line-height: 14.32px;
+    font-size: 12px;
+    font-weight: 400;
+}
+.slide-btn {
+    height: 33px;
+    width: 20px;
+    background:#fff;
+    display: flex;
+    justify-content: center;
+    border-radius: 6px;
+    align-items: center;
+    border: none;
+    cursor: pointer;
+}

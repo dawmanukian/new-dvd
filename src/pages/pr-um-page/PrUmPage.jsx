@@ -1,5 +1,6 @@
 import React from 'react'
 import "./pr-um.css"
+import buyPremium from "../../img/buy-premium.png"
 
 const PrUmPage = () => {
   return (
@@ -38,7 +39,10 @@ const PrUmPage = () => {
             <div className='box'><span>Timeout games 30 minutes</span></div>
             <div className='box' style={{background: "linear-gradient(180deg, #17191B 0%, #0A0D0F 100%)"}}><span>Unique <span style={{color: "#54B2FF"}}>nickname</span> color</span></div>
         </div>
-        <button className='buy-premium'>Buy Premium</button>
+        <button className='buy-premium'>
+            {/* <img src={buyPremium} alt="" /> */}
+            Buy Premium
+        </button>
     </div>
   )
 }

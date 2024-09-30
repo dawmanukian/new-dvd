@@ -5,15 +5,17 @@ header {
     width: 100%;
     display: flex;
     justify-content: space-between;
+    gap: 8px;
 }
 .header-block {
+    width: 100%;
     background: #17191B;
     height: 53px;
     border-radius: 5px;
-    width: auto;
     display: flex;
     align-items: center;
     padding: 10px 12px;
+    position: relative;
 }
 .user-avatar {
     height: 33px;
@@ -53,4 +55,8 @@ header {
     line-height: 14.32px;
     color: #FFFFFF;
     font-weight: 500;
+}
+.header-block img {
+    position: absolute;
+    left: 0 ;
 }

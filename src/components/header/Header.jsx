@@ -1,5 +1,7 @@
 import React from 'react'
 import "./header.css"
+import borderColor from "../../img/border-color.png"
+import borderColorL from "../../img/border-ll.png"
 import {ReactComponent as Moneta} from "../../img/svg/MonetaLogo.svg"
 
 const Header = () => {
@@ -7,6 +9,7 @@ const Header = () => {
     <header>
         <div className='header-blocks'>
             <div className='header-block'>
+                <img src={borderColor}/>
                 <div className='user-avatar'></div>
                 <div className='user-data'>
                     <p className="user-nick">Username</p>
@@ -23,6 +26,7 @@ const Header = () => {
                 </div>
             </div>
             <div className='header-block'>
+                <img src={borderColorL} style={{right: "0px", left: "auto"}}/>
                 <div className="block-data">
                     <p className='block-header'>In hour:</p>
                     <div className="ton-block">
